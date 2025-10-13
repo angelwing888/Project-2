@@ -9,6 +9,7 @@ The interaction model I chose was context-sensitive interaction, which involves 
 The first example of this is opening a treasure chest. When the player presses E to interact with it, the closed treasure chest opens. The chest stays open and will not close after the player leaves. The second example of this is knocking over a pot. It doesn't open like the treasure chest, but falls over when interacted with. When the player gets close to an interactable item, an exclamation point appears over the player's head, and after the item is opened/knocked over, the marker disappears.
 
 (5 Points) Video demonstration of at least two examples of the interaction
+
 See Demo.mov in the repo
 
 (5 Points) Brief write-up on how this interaction model can be used in different parts of the game and why
