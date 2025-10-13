@@ -17,6 +17,10 @@ public class InteractionDetector : MonoBehaviour
         if (context.performed)
         {
             interactableInRange?.Interact();
+            if (!interactableInRange.CanInteract())
+            {
+                interactionIcon.SetActive(false);
+            }
         }
     }
 
