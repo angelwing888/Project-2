@@ -472,8 +472,12 @@
 "Assets/Scripts/GlobalHelper.cs"
 "Assets/Scripts/IInteractable.cs"
 "Assets/Scripts/InteractionDetector.cs"
+"Assets/Scripts/MenuController.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerInputActions.cs"
+"Assets/Scripts/SaveController.cs"
+"Assets/Scripts/SaveData.cs"
+"Assets/Scripts/TabController.cs"
 -langversion:9.0
 /deterministic
 /optimize+
