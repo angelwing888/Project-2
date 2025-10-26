@@ -1,23 +1,33 @@
-# Project 2
+# Program 3
 
-(5 Points) Written description of the interaction model, including the objective of the interaction
+(4 Points) Implementation of "Save"
 
-The interaction model I chose was context-sensitive interaction, which involves having items the player can interact with, and then experience different outcomes. The objective of this model is to encourage exploration and item collection through a map. If there was more time I would've added collectable items to come out of the chest and pot and add an inventory.
+My implementation of "Save" was saving the player's position in the game. This was done using a .json file that had the player's position after the player clicked the save button in the settings. 
 
-(5 Points) At least two examples of the interaction implemented
+(4 Points) Implementation of "Load"
 
-The first example of this is opening a treasure chest. When the player presses E to interact with it, the closed treasure chest opens. The chest stays open and will not close after the player leaves. The second example of this is knocking over a pot. It doesn't open like the treasure chest, but falls over when interacted with. When the player gets close to an interactable item, an exclamation point appears over the player's head, and after the item is opened/knocked over, the marker disappears.
+After clicking the save button, the player can exit the game and when it is relaunched, the player will be back where they left off. The demo video shows this happening twice to show how the json file updates the position each time save is pushed so the player doesn't get placed back in the wrong spot. 
 
-(5 Points) Video demonstration of at least two examples of the interaction
+(6 Points) Video demonstration of Save/Load (Open -> Do Something -> Save -> Close -> Open -> Load)
 
-See Demo.mov in the repo
+LINK: https://www.youtube.com/watch?v=wioOwjhanjs
 
-(5 Points) Brief write-up on how this interaction model can be used in different parts of the game and why
+Ignore the demo video in the files! That was for last assignment and it's not going away when I try deleting it. 
 
-This model can be used in different parts of the game because it can be applied to just about anything the player can interact with. For example, in rpgs, this is used when you open treasure chests, talk to an npc, collect items in the overworld like fruits, scrolls, and weapons, and more. I chose this specifically so I could get an idea of what to do with my cafe simulator because I was thinking about how the player would need to interact with the customers, the coffee machine, tables with empty cups, and probably more things. It might not be as "flashy" of an interaction model as others, but it's important to creating a functional, immersive experience in any game that requires some level of exploration or navigation. 
+(6 Points) Brief write-up on minimum of 3 storage mechanisms you considered, pros/cons, and why you chose the solution you did
 
+I considered a standard player position saving and loading, inventory saving and loading, and settings saving and loading. I was originally going to do an inventory, but I have never worked with json files to save things before, so I wanted to start out small. The video I was referencing started out with saving the player position and said it would provide a good foundation for inventories, so I decided to start with player position. I wanted to set up my knowledge so that once I get into making inventories for my game, I would have some level of exposure with json files first before diving headfirst into crafting inventories, which from how the creator phrased it, seems more complex. 
 
 This project was done referencing a combination of the following tutorials and assets
+
+tutorials i followed for this assignment:
+
+https://www.youtube.com/watch?v=rDZztBWGMIs&list=PLaaFfzxy_80HtVvBnpK_IjSC8_Y9AOhuP&index=8
+
+https://www.youtube.com/watch?v=liba3xGI4gM&list=PLaaFfzxy_80HtVvBnpK_IjSC8_Y9AOhuP&index=7
+
+
+tutorials from last assignment to set everything up:
 
 https://www.youtube.com/watch?v=MPP9GLp44Pc
 
@@ -28,6 +38,8 @@ https://www.youtube.com/watch?v=DBGvx-cCUMw&list=PLy1Xj-4F5G_cytIH8by-bZ9TVj5qKM
 https://www.youtube.com/watch?v=mLndVaDXzN8&list=PLy1Xj-4F5G_cytIH8by-bZ9TVj5qKMlZn&index=3&pp=iAQB
 
 https://www.youtube.com/watch?v=dbMm2_M3Wfc&list=PLy1Xj-4F5G_cytIH8by-bZ9TVj5qKMlZn&index=4&pp=iAQB
+
+asset packs:
 
 https://pixel-boy.itch.io/ninja-adventure-asset-pack
 
