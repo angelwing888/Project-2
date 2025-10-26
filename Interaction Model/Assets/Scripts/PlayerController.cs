@@ -53,8 +53,8 @@ public class PlayerController : MonoBehaviour
     {
         input = context.ReadValue<Vector2>();
 
-        Debug.Log("This is input.x " + input.x);
-        Debug.Log("This is input.x " + input.y);
+        //Debug.Log("This is input.x " + input.x);
+        //Debug.Log("This is input.x " + input.y);
 
     }
 
