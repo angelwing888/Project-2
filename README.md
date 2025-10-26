@@ -12,8 +12,6 @@ After clicking the save button, the player can exit the game and when it is rela
 
 LINK: https://www.youtube.com/watch?v=wioOwjhanjs
 
-Ignore the demo video in the files! That was for last assignment and it's not going away when I try deleting it. 
-
 (6 Points) Brief write-up on minimum of 3 storage mechanisms you considered, pros/cons, and why you chose the solution you did
 
 I considered a standard player position saving and loading, inventory saving and loading, and settings saving and loading. I was originally going to do an inventory, but I have never worked with json files to save things before, so I wanted to start out small. The video I was referencing started out with saving the player position and said it would provide a good foundation for inventories, so I decided to start with player position. I wanted to set up my knowledge so that once I get into making inventories for my game, I would have some level of exposure with json files first before diving headfirst into crafting inventories, which from how the creator phrased it, seems more complex. 
